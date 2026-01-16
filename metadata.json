@@ -1,0 +1,6 @@
+
+{
+  "name": "MUKBLOG - AI Powered Personal Space",
+  "description": "A high-end personal homepage featuring 3D elements, AI-powered interactions, and a clean developer-centric aesthetic.",
+  "requestFramePermissions": ["camera", "microphone"]
+}
