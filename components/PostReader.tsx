@@ -98,6 +98,24 @@ const PostReader: React.FC<PostReaderProps> = ({ post, onClose }) => {
                     <code>{block.code}</code>
                   </pre>
                 );
+              case 'image':
+                return (
+                  <figure key={i} className="my-10">
+                    <div className="rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900/70">
+                      <img
+                        src={block.src}
+                        alt={block.alt}
+                        loading="lazy"
+                        className="w-full h-auto block"
+                      />
+                    </div>
+                    {block.caption && (
+                      <figcaption className="mt-3 text-sm text-zinc-500 leading-relaxed">
+                        {block.caption}
+                      </figcaption>
+                    )}
+                  </figure>
+                );
               default:
                 return (
                   <p key={i} className="text-zinc-300 text-[17px] leading-[1.9]">

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675"
+ font-family="Pretendard, Malgun Gothic, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#171B20"/>
+      <stop offset="100%" stop-color="#0E1114"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="562" y="96" width="128" height="96" rx="10"
+        fill="#FFFFFF" fill-opacity="0.04"
+        stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1.5"/>
+<rect x="708" y="96" width="128" height="96" rx="10"
+        fill="#5583AC" fill-opacity="0.16"
+        stroke="#5583AC" stroke-opacity="0.4" stroke-width="1.5"/>
+<rect x="854" y="96" width="128" height="96" rx="10"
+        fill="#5583AC" fill-opacity="0.16"
+        stroke="#5583AC" stroke-opacity="0.4" stroke-width="1.5"/>
+<rect x="1000" y="96" width="128" height="96" rx="10"
+        fill="#FFFFFF" fill-opacity="0.04"
+        stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1.5"/>
+<rect x="562" y="210" width="128" height="96" rx="10"
+        fill="#5583AC" fill-opacity="0.16"
+        stroke="#5583AC" stroke-opacity="0.4" stroke-width="1.5"/>
+<rect x="708" y="210" width="128" height="96" rx="10"
+        fill="#FFFFFF" fill-opacity="0.04"
+        stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1.5"/>
+<rect x="854" y="210" width="128" height="96" rx="10"
+        fill="#FFFFFF" fill-opacity="0.04"
+        stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1.5"/>
+<rect x="1000" y="210" width="128" height="96" rx="10"
+        fill="#5583AC" fill-opacity="0.16"
+        stroke="#5583AC" stroke-opacity="0.4" stroke-width="1.5"/>
+<rect x="562" y="324" width="128" height="96" rx="10"
+        fill="#5583AC" fill-opacity="0.16"
+        stroke="#5583AC" stroke-opacity="0.4" stroke-width="1.5"/>
+<rect x="708" y="324" width="128" height="96" rx="10"
+        fill="#FFFFFF" fill-opacity="0.04"
+        stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1.5"/>
+<rect x="854" y="324" width="128" height="96" rx="10"
+        fill="#FFFFFF" fill-opacity="0.04"
+        stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="1.5"/>
+<rect x="1000" y="324" width="128" height="96" rx="10"
+        fill="#5583AC" fill-opacity="0.16"
+        stroke="#5583AC" stroke-opacity="0.4" stroke-width="1.5"/>
+
+  <rect x="0" y="0" width="6" height="675" fill="#5583AC"/>
+
+  <text x="72" y="270" font-size="104" font-weight="800" letter-spacing="-3" fill="#FFFFFF">Fitter</text>
+  <text x="72" y="330" font-size="34" font-weight="600" fill="#5583AC">인테리어 플랫폼</text>
+
+  <line x1="72" y1="382" x2="330" y2="382" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="2"/>
+
+  <text x="72" y="436" font-size="24" font-weight="500" fill="#8A939E">개발기 1 · 두뇌 볼트</text>
+
+  <text x="72" y="619" font-size="19" fill="#5D666F">사진으로 고르고, 사진으로 보여주는 반셀프 인테리어 매칭</text>
+</svg>

@@ -4,7 +4,9 @@ export type PostBlock =
   | { type: 'paragraph'; text: string }
   | { type: 'quote'; text: string }
   | { type: 'list'; items: string[] }
-  | { type: 'code'; code: string };
+  | { type: 'code'; code: string }
+  // caption 은 선택이지만 웬만하면 넣는다. 그림만 던져두면 왜 보여주는지가 안 남는다.
+  | { type: 'image'; src: string; alt: string; caption?: string };
 
 export interface BlogPost {
   id: number;

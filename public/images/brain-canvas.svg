@@ -1,0 +1,503 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -310 1740 2354" width="1740" height="2354"
+   font-family="Pretendard, Malgun Gothic, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/></marker></defs>
+<rect x="-60" y="-310" width="1740" height="2354" fill="#131619"/>
+<rect x="420" y="0" width="360" height="1016" rx="14"
+    fill="#A8623C" fill-opacity="0.16" stroke="#A8623C" stroke-width="2.5"/>
+    <text x="438" y="34" font-size="21" font-weight="700" fill="#A8623C">10-제품 · 무엇을, 왜</text>
+<rect x="840" y="0" width="360" height="844" rx="14"
+    fill="#1F7A4C" fill-opacity="0.16" stroke="#1F7A4C" stroke-width="2.5"/>
+    <text x="858" y="34" font-size="21" font-weight="700" fill="#1F7A4C">20-도메인 · 이름과 불변식</text>
+<rect x="420" y="1140" width="360" height="844" rx="14"
+    fill="#7A5C9E" fill-opacity="0.16" stroke="#7A5C9E" stroke-width="2.5"/>
+    <text x="438" y="1174" font-size="21" font-weight="700" fill="#7A5C9E">40-프롬프트 · 실행 절차</text>
+<rect x="1260" y="0" width="360" height="586" rx="14"
+    fill="#85A7C7" fill-opacity="0.16" stroke="#85A7C7" stroke-width="2.5"/>
+    <text x="1278" y="34" font-size="21" font-weight="700" fill="#85A7C7">30-설계 · 어떻게 짓는가</text>
+<rect x="1260" y="1140" width="360" height="500" rx="14"
+    fill="#B03A2E" fill-opacity="0.16" stroke="#B03A2E" stroke-width="2.5"/>
+    <text x="1278" y="1174" font-size="21" font-weight="700" fill="#B03A2E">50-결정 · 되돌릴 수 없는 것</text>
+<rect x="840" y="1140" width="360" height="500" rx="14"
+    fill="#9A6B0F" fill-opacity="0.16" stroke="#9A6B0F" stroke-width="2.5"/>
+    <text x="858" y="1174" font-size="21" font-weight="700" fill="#9A6B0F">70-산출물 · 남는 문서</text>
+<rect x="0" y="0" width="360" height="414" rx="14"
+    fill="#2F6390" fill-opacity="0.16" stroke="#2F6390" stroke-width="2.5"/>
+    <text x="18" y="34" font-size="21" font-weight="700" fill="#2F6390">00-허브 · 여기서 시작한다</text>
+<rect x="0" y="1140" width="360" height="328" rx="14"
+    fill="#515A65" fill-opacity="0.16" stroke="#515A65" stroke-width="2.5"/>
+    <text x="18" y="1174" font-size="21" font-weight="700" fill="#515A65">90-규약 · 일하는 방식</text>
+<rect x="0" y="1528" width="360" height="242" rx="14"
+    fill="#69737F" fill-opacity="0.16" stroke="#69737F" stroke-width="2.5"/>
+    <text x="18" y="1562" font-size="21" font-weight="700" fill="#69737F">60-로그 · 그날 무슨 일이 있었나</text>
+<rect x="0" y="-250" width="1620" height="190" rx="10"
+    fill="#2F6390" fill-opacity="0.18" stroke="#2F6390" stroke-width="2"/>
+<text x="16" y="-216" font-size="20"
+      font-weight="700" fill="#D5DCE4">Fitter 두뇌 지도</text>
+<text x="16" y="-191" font-size="15"
+      font-weight="400" fill="#D5DCE4"></text>
+<text x="16" y="-166" font-size="15"
+      font-weight="400" fill="#D5DCE4">노트 54개 · 폴더 9개. 화살표를 따라가면 이 프로젝트가 만들어진 순서다</text>
+<text x="16" y="-141" font-size="15"
+      font-weight="400" fill="#D5DCE4">무엇을 만드는가 → 어떤 말로 부르는가 → 어떻게 짓는가 → 무엇을 되돌릴 </text>
+<text x="16" y="-116" font-size="15"
+      font-weight="400" fill="#D5DCE4"></text>
+<text x="16" y="-91" font-size="15"
+      font-weight="400" fill="#D5DCE4">카드를 더블클릭하면 노트가 열린다. 이 캔버스는 색인이지 본문이 아니다.</text>
+<rect x="1260" y="646" width="360" height="440" rx="10"
+    fill="#1F7A4C" fill-opacity="0.18" stroke="#1F7A4C" stroke-width="2"/>
+<text x="1276" y="680" font-size="20"
+      font-weight="700" fill="#D5DCE4">지금 상태</text>
+<text x="1276" y="705" font-size="15"
+      font-weight="400" fill="#D5DCE4"></text>
+<text x="1276" y="730" font-size="15"
+      font-weight="400" fill="#D5DCE4">공개 동선이 끝까지 이어진다.</text>
+<text x="1276" y="755" font-size="15"
+      font-weight="400" fill="#D5DCE4">랜딩 → 갤러리(C-04) → 상세(C-05) → 문의</text>
+<text x="1276" y="780" font-size="15"
+      font-weight="400" fill="#D5DCE4"></text>
+<text x="1276" y="805" font-size="15"
+      font-weight="400" fill="#D5DCE4">- 서버 API 전부 완료</text>
+<text x="1276" y="830" font-size="15"
+      font-weight="400" fill="#D5DCE4">- 테스트 159개 · `pnpm qc` 0 error</text>
+<text x="1276" y="855" font-size="15"
+      font-weight="400" fill="#D5DCE4">- 남은 것: 의뢰 등록(C-01) · 컨택 화면 · 배포</text>
+<text x="1276" y="880" font-size="15"
+      font-weight="400" fill="#D5DCE4"></text>
+<text x="1276" y="905" font-size="15"
+      font-weight="400" fill="#D5DCE4">자세한 건 진행 현황판.</text>
+<rect x="0" y="474" width="360" height="600" rx="10"
+    fill="#2F6390" fill-opacity="0.18" stroke="#2F6390" stroke-width="2"/>
+<text x="16" y="508" font-size="20"
+      font-weight="700" fill="#D5DCE4">처음 왔다면</text>
+<text x="16" y="533" font-size="15"
+      font-weight="400" fill="#D5DCE4"></text>
+<text x="16" y="558" font-size="15"
+      font-weight="400" fill="#D5DCE4">1. Fitter 두뇌 허브 — 전체 지도</text>
+<text x="16" y="583" font-size="15"
+      font-weight="400" fill="#D5DCE4">2. 세션 부팅 프로토콜 — 무엇을 어떤 순서로 읽을지</text>
+<text x="16" y="608" font-size="15"
+      font-weight="400" fill="#D5DCE4">3. 진행 현황판 — 지금 어디까지 왔나</text>
+<text x="16" y="633" font-size="15"
+      font-weight="400" fill="#D5DCE4"></text>
+<text x="16" y="658" font-size="15"
+      font-weight="400" fill="#D5DCE4">---</text>
+<text x="16" y="683" font-size="15"
+      font-weight="400" fill="#D5DCE4"></text>
+<text x="16" y="708" font-size="20"
+      font-weight="700" fill="#D5DCE4">규칙 셋만 기억하면 된다</text>
+<text x="16" y="733" font-size="15"
+      font-weight="400" fill="#D5DCE4"></text>
+<text x="16" y="758" font-size="15"
+      font-weight="400" fill="#D5DCE4">- 용어를 임의로 바꾸지 않는다 → 도메인 용어집</text>
+<text x="16" y="783" font-size="15"
+      font-weight="400" fill="#D5DCE4">- 지금 어기면 스키마를 갈아엎어야 한다 → 확장 규약</text>
+<text x="16" y="808" font-size="15"
+      font-weight="400" fill="#D5DCE4">- 결정은 문서로 남긴다 → ADR 인덱스</text>
+<text x="16" y="833" font-size="15"
+      font-weight="400" fill="#D5DCE4"></text>
+<text x="16" y="858" font-size="15"
+      font-weight="400" fill="#D5DCE4">미결정 항목을 임의로 정하지 마라. 열린 질문에 있다.</text>
+<rect x="30" y="142" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="30" y="142" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="30" y="160" width="300" height="8" fill="#2A3038"/>
+    <text x="42" y="160" font-size="14" font-weight="600" fill="#AEB7C2">세션 부팅 프로토콜</text>
+    <rect x="42" y="180" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="42" y="194" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="30" y="228" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="30" y="228" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="30" y="246" width="300" height="8" fill="#2A3038"/>
+    <text x="42" y="246" font-size="14" font-weight="600" fill="#AEB7C2">진행 현황판</text>
+    <rect x="42" y="266" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="42" y="280" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="30" y="314" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="30" y="314" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="30" y="332" width="300" height="8" fill="#2A3038"/>
+    <text x="42" y="332" font-size="14" font-weight="600" fill="#AEB7C2">열린 질문</text>
+    <rect x="42" y="352" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="42" y="366" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="142" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="142" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="160" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="160" font-size="14" font-weight="600" fill="#AEB7C2">문제 정의</text>
+    <rect x="462" y="180" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="194" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="228" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="228" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="246" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="246" font-size="14" font-weight="600" fill="#AEB7C2">타겟 - 고객</text>
+    <rect x="462" y="266" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="280" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="314" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="314" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="332" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="332" font-size="14" font-weight="600" fill="#AEB7C2">타겟 - 시공자</text>
+    <rect x="462" y="352" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="366" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="1290" y="142" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="1290" y="142" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="1290" y="160" width="300" height="8" fill="#2A3038"/>
+    <text x="1302" y="160" font-size="14" font-weight="600" fill="#AEB7C2">권한 모델</text>
+    <rect x="1302" y="180" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="1302" y="194" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="1290" y="228" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="1290" y="228" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="1290" y="246" width="300" height="8" fill="#2A3038"/>
+    <text x="1302" y="246" font-size="14" font-weight="600" fill="#AEB7C2">화면 목록</text>
+    <rect x="1302" y="266" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="1302" y="280" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="1290" y="314" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="1290" y="314" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="1290" y="332" width="300" height="8" fill="#2A3038"/>
+    <text x="1302" y="332" font-size="14" font-weight="600" fill="#AEB7C2">디자인 원칙</text>
+    <rect x="1302" y="352" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="1302" y="366" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="1290" y="400" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="1290" y="400" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="1290" y="418" width="300" height="8" fill="#2A3038"/>
+    <text x="1302" y="418" font-size="14" font-weight="600" fill="#AEB7C2">시안 검수 결과</text>
+    <rect x="1302" y="438" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="1302" y="452" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="56" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="56" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="74" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="74" font-size="14" font-weight="600" fill="#AEB7C2">서비스 정의</text>
+    <rect x="462" y="94" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="108" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="400" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="400" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="418" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="418" font-size="14" font-weight="600" fill="#AEB7C2">경쟁 지형</text>
+    <rect x="462" y="438" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="452" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="830" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="830" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="848" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="848" font-size="14" font-weight="600" fill="#AEB7C2">리스크 - 가격 신뢰</text>
+    <rect x="462" y="868" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="882" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="916" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="916" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="934" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="934" font-size="14" font-weight="600" fill="#AEB7C2">리스크 - 플랫폼 이탈</text>
+    <rect x="462" y="954" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="968" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="56" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="56" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="74" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="74" font-size="14" font-weight="600" fill="#AEB7C2">도메인 용어집</text>
+    <rect x="882" y="94" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="108" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="142" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="142" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="160" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="160" font-size="14" font-weight="600" fill="#AEB7C2">확장 규약</text>
+    <rect x="882" y="180" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="194" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="228" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="228" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="246" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="246" font-size="14" font-weight="600" fill="#AEB7C2">엔티티 - User와 역할</text>
+    <rect x="882" y="266" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="280" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="314" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="314" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="332" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="332" font-size="14" font-weight="600" fill="#AEB7C2">엔티티 - ReferenceRequest</text>
+    <rect x="882" y="352" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="366" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="400" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="400" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="418" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="418" font-size="14" font-weight="600" fill="#AEB7C2">엔티티 - PortfolioItem</text>
+    <rect x="882" y="438" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="452" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="30" y="56" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="30" y="56" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="30" y="74" width="300" height="8" fill="#2A3038"/>
+    <text x="42" y="74" font-size="14" font-weight="600" fill="#AEB7C2">Fitter 두뇌 허브</text>
+    <rect x="42" y="94" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="42" y="108" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="1290" y="56" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="1290" y="56" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="1290" y="74" width="300" height="8" fill="#2A3038"/>
+    <text x="1302" y="74" font-size="14" font-weight="600" fill="#AEB7C2">구조적 원칙</text>
+    <rect x="1302" y="94" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="1302" y="108" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="1290" y="486" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="1290" y="486" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="1290" y="504" width="300" height="8" fill="#2A3038"/>
+    <text x="1302" y="504" font-size="14" font-weight="600" fill="#AEB7C2">기술 스택 결정</text>
+    <rect x="1302" y="524" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="1302" y="538" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="1196" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="1196" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="1214" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="1214" font-size="14" font-weight="600" fill="#AEB7C2">프롬프트 인덱스</text>
+    <rect x="462" y="1234" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="1248" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="1282" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="1282" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="1300" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="1300" font-size="14" font-weight="600" fill="#AEB7C2">P0 - 디자인 시안</text>
+    <rect x="462" y="1320" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="1334" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="1290" y="1196" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="1290" y="1196" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="1290" y="1214" width="300" height="8" fill="#2A3038"/>
+    <text x="1302" y="1214" font-size="14" font-weight="600" fill="#AEB7C2">ADR 인덱스</text>
+    <rect x="1302" y="1234" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="1302" y="1248" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="1290" y="1282" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="1290" y="1282" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="1290" y="1300" width="300" height="8" fill="#2A3038"/>
+    <text x="1302" y="1300" font-size="14" font-weight="600" fill="#AEB7C2">ADR-001 - 기술 스택 선정</text>
+    <rect x="1302" y="1320" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="1302" y="1334" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="1368" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="1368" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="1386" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="1386" font-size="14" font-weight="600" fill="#AEB7C2">P1 - 기획</text>
+    <rect x="462" y="1406" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="1420" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="1454" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="1454" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="1472" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="1472" font-size="14" font-weight="600" fill="#AEB7C2">P2 - 스택과 세팅</text>
+    <rect x="462" y="1492" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="1506" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="1540" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="1540" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="1558" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="1558" font-size="14" font-weight="600" fill="#AEB7C2">P3 - 데이터와 API 설계</text>
+    <rect x="462" y="1578" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="1592" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="1626" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="1626" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="1644" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="1644" font-size="14" font-weight="600" fill="#AEB7C2">P4 - 기능 구현</text>
+    <rect x="462" y="1664" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="1678" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="1712" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="1712" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="1730" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="1730" font-size="14" font-weight="600" fill="#AEB7C2">P5 - 배포와 문서화</text>
+    <rect x="462" y="1750" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="1764" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="1798" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="1798" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="1816" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="1816" font-size="14" font-weight="600" fill="#AEB7C2">P6 - 확장 설계</text>
+    <rect x="462" y="1836" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="1850" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="1884" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="1884" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="1902" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="1902" font-size="14" font-weight="600" fill="#AEB7C2">보조 프롬프트</text>
+    <rect x="462" y="1922" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="1936" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="1290" y="1368" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="1290" y="1368" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="1290" y="1386" width="300" height="8" fill="#2A3038"/>
+    <text x="1302" y="1386" font-size="14" font-weight="600" fill="#AEB7C2">ADR-002 - 인증과 권한 모델</text>
+    <rect x="1302" y="1406" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="1302" y="1420" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="1290" y="1454" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="1290" y="1454" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="1290" y="1472" width="300" height="8" fill="#2A3038"/>
+    <text x="1302" y="1472" font-size="14" font-weight="600" fill="#AEB7C2">ADR-010 - 가격 정책 모델</text>
+    <rect x="1302" y="1492" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="1302" y="1506" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="1290" y="1540" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="1290" y="1540" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="1290" y="1558" width="300" height="8" fill="#2A3038"/>
+    <text x="1302" y="1558" font-size="14" font-weight="600" fill="#AEB7C2">ADR-011 - 신뢰 장치 설계</text>
+    <rect x="1302" y="1578" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="1302" y="1592" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="1196" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="1196" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="1214" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="1214" font-size="14" font-weight="600" fill="#AEB7C2">PRD</text>
+    <rect x="882" y="1234" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="1248" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="1282" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="1282" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="1300" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="1300" font-size="14" font-weight="600" fill="#AEB7C2">유저 스토리</text>
+    <rect x="882" y="1320" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="1334" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="1368" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="1368" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="1386" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="1386" font-size="14" font-weight="600" fill="#AEB7C2">백로그</text>
+    <rect x="882" y="1406" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="1420" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="1454" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="1454" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="1472" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="1472" font-size="14" font-weight="600" fill="#AEB7C2">ERD</text>
+    <rect x="882" y="1492" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="1506" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="1540" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="1540" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="1558" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="1558" font-size="14" font-weight="600" fill="#AEB7C2">API 명세</text>
+    <rect x="882" y="1578" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="1592" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="486" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="486" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="504" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="504" font-size="14" font-weight="600" fill="#AEB7C2">엔티티 - ContactRequest</text>
+    <rect x="882" y="524" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="538" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="572" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="572" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="590" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="590" font-size="14" font-weight="600" fill="#AEB7C2">엔티티 - WorkCategory</text>
+    <rect x="882" y="610" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="624" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="30" y="1196" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="30" y="1196" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="30" y="1214" width="300" height="8" fill="#2A3038"/>
+    <text x="42" y="1214" font-size="14" font-weight="600" fill="#AEB7C2">작업 원칙</text>
+    <rect x="42" y="1234" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="42" y="1248" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="30" y="1282" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="30" y="1282" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="30" y="1300" width="300" height="8" fill="#2A3038"/>
+    <text x="42" y="1300" font-size="14" font-weight="600" fill="#AEB7C2">노트 작성 규칙</text>
+    <rect x="42" y="1320" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="42" y="1334" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="30" y="1368" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="30" y="1368" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="30" y="1386" width="300" height="8" fill="#2A3038"/>
+    <text x="42" y="1386" font-size="14" font-weight="600" fill="#AEB7C2">자동 QC</text>
+    <rect x="42" y="1406" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="42" y="1420" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="30" y="1584" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="30" y="1584" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="30" y="1602" width="300" height="8" fill="#2A3038"/>
+    <text x="42" y="1602" font-size="14" font-weight="600" fill="#AEB7C2">2026-07-25 - 볼트 구축</text>
+    <rect x="42" y="1622" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="42" y="1636" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="30" y="1670" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="30" y="1670" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="30" y="1688" width="300" height="8" fill="#2A3038"/>
+    <text x="42" y="1688" font-size="14" font-weight="600" fill="#AEB7C2">2026-07-25 - 스택 확정과 시안 검수</text>
+    <rect x="42" y="1708" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="42" y="1722" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="486" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="486" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="504" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="504" font-size="14" font-weight="600" fill="#AEB7C2">MVP 범위</text>
+    <rect x="462" y="524" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="538" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="572" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="572" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="590" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="590" font-size="14" font-weight="600" fill="#AEB7C2">리스크 레지스터</text>
+    <rect x="462" y="610" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="624" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="658" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="658" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="676" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="676" font-size="14" font-weight="600" fill="#AEB7C2">리스크 - 콜드스타트</text>
+    <rect x="462" y="696" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="710" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="450" y="744" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="450" y="744" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="450" y="762" width="300" height="8" fill="#2A3038"/>
+    <text x="462" y="762" font-size="14" font-weight="600" fill="#AEB7C2">리스크 - 레퍼런스 사진 저작권</text>
+    <rect x="462" y="782" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="462" y="796" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="658" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="658" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="676" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="676" font-size="14" font-weight="600" fill="#AEB7C2">상태머신 - 컨택</text>
+    <rect x="882" y="696" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="710" width="190" height="6" rx="3" fill="#2A3038"/>
+<rect x="870" y="744" width="300" height="70" rx="8"
+    fill="#1E2227" stroke="#3A424C" stroke-width="1.5"/>
+    <rect x="870" y="744" width="300" height="26" rx="8" fill="#2A3038"/>
+    <rect x="870" y="762" width="300" height="8" fill="#2A3038"/>
+    <text x="882" y="762" font-size="14" font-weight="600" fill="#AEB7C2">이미지 파이프라인</text>
+    <rect x="882" y="782" width="240" height="6" rx="3" fill="#2A3038"/>
+    <rect x="882" y="796" width="190" height="6" rx="3" fill="#2A3038"/>
+<path d="M 360 207 C 390 207, 390 508, 420 508" fill="none" stroke="#2F6390" stroke-width="3.5" marker-end="url(#ar)"/>
+<rect x="328" y="340.5" width="124" height="30" rx="15" fill="#1E2227" stroke="#2F6390" stroke-width="2"/>
+    <text x="390" y="361.5" font-size="15" font-weight="600" text-anchor="middle" fill="#2F6390">무엇을 만드는가</text>
+<path d="M 780 508 C 810 508, 810 422, 840 422" fill="none" stroke="#A8623C" stroke-width="3.5" marker-end="url(#ar)"/>
+<rect x="748" y="448" width="124" height="30" rx="15" fill="#1E2227" stroke="#A8623C" stroke-width="2"/>
+    <text x="810" y="469" font-size="15" font-weight="600" text-anchor="middle" fill="#A8623C">용어를 고정한다</text>
+<path d="M 1200 422 C 1230 422, 1230 293, 1260 293" fill="none" stroke="#1F7A4C" stroke-width="3.5" marker-end="url(#ar)"/>
+<rect x="1174.5" y="340.5" width="111" height="30" rx="15" fill="#1E2227" stroke="#1F7A4C" stroke-width="2"/>
+    <text x="1230" y="361.5" font-size="15" font-weight="600" text-anchor="middle" fill="#1F7A4C">구조로 옮긴다</text>
+<path d="M 1440 586 C 1440 863, 1440 863, 1440 1140" fill="none" stroke="#85A7C7" stroke-width="3.5" marker-end="url(#ar)"/>
+<rect x="1319.5" y="846" width="241" height="30" rx="15" fill="#1E2227" stroke="#85A7C7" stroke-width="2"/>
+    <text x="1440" y="867" font-size="15" font-weight="600" text-anchor="middle" fill="#85A7C7">되돌릴 수 없는 선택은 ADR로</text>
+<path d="M 1260 1390 C 1230 1390, 1230 1390, 1200 1390" fill="none" stroke="#B03A2E" stroke-width="3.5" marker-end="url(#ar)"/>
+<rect x="1174.5" y="1373" width="111" height="30" rx="15" fill="#1E2227" stroke="#B03A2E" stroke-width="2"/>
+    <text x="1230" y="1394" font-size="15" font-weight="600" text-anchor="middle" fill="#B03A2E">문서로 굳힌다</text>
+<path d="M 840 1390 C 810 1390, 810 1562, 780 1562" fill="none" stroke="#9A6B0F" stroke-width="3.5" marker-end="url(#ar)"/>
+<rect x="748" y="1459" width="124" height="30" rx="15" fill="#1E2227" stroke="#9A6B0F" stroke-width="2"/>
+    <text x="810" y="1480" font-size="15" font-weight="600" text-anchor="middle" fill="#9A6B0F">실행으로 옮긴다</text>
+<path d="M 420 1562 C 390 1562, 390 1304, 360 1304" fill="none" stroke="#7A5C9E" stroke-width="3.5" marker-end="url(#ar)"/>
+<rect x="315" y="1416" width="150" height="30" rx="15" fill="#1E2227" stroke="#7A5C9E" stroke-width="2"/>
+    <text x="390" y="1437" font-size="15" font-weight="600" text-anchor="middle" fill="#7A5C9E">이 방식대로 일한다</text>
+<path d="M 180 1468 C 180 1498, 180 1498, 180 1528" fill="none" stroke="#515A65" stroke-width="3.5" marker-end="url(#ar)"/>
+<rect x="111.5" y="1481" width="137" height="30" rx="15" fill="#1E2227" stroke="#515A65" stroke-width="2"/>
+    <text x="180" y="1502" font-size="15" font-weight="600" text-anchor="middle" fill="#515A65">한 일을 기록한다</text>
+</svg>
