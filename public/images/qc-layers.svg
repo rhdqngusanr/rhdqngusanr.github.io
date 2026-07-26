@@ -3,7 +3,7 @@
   <rect width="1200" height="720" fill="#FBFCFD"/>
 
   <text x="64" y="66" font-size="30" font-weight="800" fill="#171B20" letter-spacing="-0.6">화면 QC 3층</text>
-  <text x="64" y="102" font-size="17" fill="#69737F">무엇이 무엇을 잡을 수 있는지가 다르다. 섞으면 “다 봤다”고 착각한다.</text>
+  <text x="64" y="102" font-size="17" fill="#69737F">1층은 자동이 잡고, 2·3층은 눈으로 잡는다. 한 시간을 쓰고 나서야 이렇게 나눴다.</text>
 
   <!-- 1층 -->
   <rect x="64" y="136" width="1072" height="150" rx="14" fill="#FFFFFF" stroke="#DFE4E9" stroke-width="1.5"/>
