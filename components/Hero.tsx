@@ -64,14 +64,30 @@ const Hero: React.FC = () => {
               <div className="flex flex-col items-center gap-4 opacity-0 animate-fade-in-up-delayed">
                 <div className="flex items-center gap-3 bg-white/5 border border-white/10 backdrop-blur-xl px-8 py-4 rounded-3xl shadow-2xl">
                   <span className="text-emerald-400 text-xl md:text-2xl font-bold italic tracking-tight">
-                    "코딩은 유쾌하게,
+                    "코딩에 불가능은 없다,
                   </span>
                   <span className="text-white text-xl md:text-2xl font-black tracking-tight animate-bounce-slow">
-                    안되는 건 없다"
+                    일단 해보자"
                   </span>
                 </div>
-                <p className="text-zinc-500 text-sm font-medium tracking-[0.2em] uppercase">
-                  Modern Developer & Creative Thinker
+                {/*
+                  배경이 Spline 3D 씬이라 드래그로 돌릴 수 있는데, 아무 표시가 없으면
+                  아무도 안 만져본다. 화살표를 좌우로 흔들어 만질 것이 있다는 걸 알린다.
+                */}
+                <p className="flex items-center gap-2 text-zinc-500 text-sm font-medium tracking-tight">
+                  <svg
+                    className="w-4 h-4 animate-nudge"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M8 7 L4 12 L8 17 M16 7 L20 12 L16 17 M4 12 H20" />
+                  </svg>
+                  배경을 좌우로 드래그해보세요
                 </p>
               </div>
             </h1>
@@ -84,7 +100,11 @@ const Hero: React.FC = () => {
 
       {/* Overlays */}
       <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/40 via-transparent to-zinc-950/40 pointer-events-none"></div>
-      <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-zinc-950 via-zinc-950/60 to-transparent z-20"></div>
+      {/*
+        이 그라디언트가 하단 256px에서 마우스를 먹고 있었다. 배경을 드래그하라고
+        안내해놓고 정작 아래쪽에서는 안 돌아가면 안내가 거짓말이 된다.
+      */}
+      <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-zinc-950 via-zinc-950/60 to-transparent z-20 pointer-events-none"></div>
 
       <style>{`
         @keyframes pop-in {
@@ -119,6 +139,24 @@ const Hero: React.FC = () => {
 
         .animate-bounce-slow {
           animation: bounce-slow 2s infinite ease-in-out;
+        }
+
+        @keyframes nudge {
+          0%, 70%, 100% { transform: translateX(0); opacity: .55; }
+          35% { transform: translateX(-4px); opacity: 1; }
+          52% { transform: translateX(4px); opacity: 1; }
+        }
+
+        .animate-nudge {
+          animation: nudge 2.6s infinite ease-in-out;
+        }
+
+        /* 흔들리는 힌트는 전정기관에 부담을 준다. 끄기로 한 사람에게는 안 움직인다. */
+        @media (prefers-reduced-motion: reduce) {
+          .animate-nudge,
+          .animate-bounce-slow {
+            animation: none;
+          }
         }
       `}</style>
     </div>
