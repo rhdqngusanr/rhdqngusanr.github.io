@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720"
+ font-family="Pretendard, Malgun Gothic, sans-serif">
+  <rect width="1200" height="720" fill="#FBFCFD"/>
+
+  <text x="64" y="66" font-size="30" font-weight="800" fill="#171B20" letter-spacing="-0.6">화면 QC 3층</text>
+  <text x="64" y="102" font-size="17" fill="#69737F">무엇이 무엇을 잡을 수 있는지가 다르다. 섞으면 “다 봤다”고 착각한다.</text>
+
+  <!-- 1층 -->
+  <rect x="64" y="136" width="1072" height="150" rx="14" fill="#FFFFFF" stroke="#DFE4E9" stroke-width="1.5"/>
+  <rect x="64" y="136" width="6" height="150" rx="3" fill="#3FA974"/>
+  <text x="96" y="176" font-size="21" font-weight="800" fill="#171B20">1. 정적</text>
+  <rect x="188" y="158" width="86" height="26" rx="13" fill="#E7F4ED"/>
+  <text x="231" y="176" font-size="13" font-weight="700" fill="#1F7A4C" text-anchor="middle">자동</text>
+  <text x="96" y="212" font-size="16" fill="#4B5563">pnpm qc · Stop 훅. 커밋 전에 강제된다.</text>
+  <text x="96" y="244" font-size="15" fill="#69737F">토큰 · 타이포 · 금지어 · 확장 규약 · 라우트(없는 링크 / 도달 못 하는 화면)</text>
+  <text x="96" y="270" font-size="14" fill="#9AA3AD">브라우저를 열지 않는다. 렌더 결과는 아무것도 모른다.</text>
+
+  <!-- 2층 -->
+  <rect x="64" y="304" width="1072" height="150" rx="14" fill="#FFFFFF" stroke="#DFE4E9" stroke-width="1.5"/>
+  <rect x="64" y="304" width="6" height="150" rx="3" fill="#2F6390"/>
+  <text x="96" y="344" font-size="21" font-weight="800" fill="#171B20">2. 렌더</text>
+  <rect x="188" y="326" width="132" height="26" rx="13" fill="#EEF3F8"/>
+  <text x="254" y="344" font-size="13" font-weight="700" fill="#2F6390" text-anchor="middle">불러야 돈다</text>
+  <text x="96" y="380" font-size="16" fill="#4B5563">/qc-screens — 브라우저로 실제 눌러본다.</text>
+  <text x="96" y="412" font-size="15" fill="#69737F">빈 화면 · 숨은 컨트롤 · 안 뜨는 에러 상태 · 조건부 404 · 치수</text>
+  <text x="96" y="438" font-size="14" fill="#9AA3AD">단정문으로 쓸 수 있다. 이번 결함의 절반이 여기였다.</text>
+
+  <!-- 3층 -->
+  <rect x="64" y="472" width="1072" height="150" rx="14" fill="#FFFFFF" stroke="#DFE4E9" stroke-width="1.5"/>
+  <rect x="64" y="472" width="6" height="150" rx="3" fill="#C98A2E"/>
+  <text x="96" y="512" font-size="21" font-weight="800" fill="#171B20">3. 판단</text>
+  <rect x="188" y="494" width="132" height="26" rx="13" fill="#FAF1E1"/>
+  <text x="254" y="512" font-size="13" font-weight="700" fill="#8A5F14" text-anchor="middle">불러야 돈다</text>
+  <text x="96" y="548" font-size="16" fill="#4B5563">같은 실행. 문장을 읽고 코드와 대조한다.</text>
+  <text x="96" y="580" font-size="15" fill="#69737F">문장끼리의 모순 · 버튼의 약속과 다른 이동 · 지킬 수 없는 카피</text>
+  <text x="96" y="606" font-size="14" fill="#9AA3AD">단정문으로 쓸 수 없다. 나머지 절반이 여기였다.</text>
+
+  <text x="64" y="678" font-size="15" fill="#69737F">단정문은 어긋남을 잡고, 에이전트는 거짓말을 잡는다. 하나만으로는 절반이 남는다.</text>
+</svg>
