@@ -8,7 +8,6 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
   const navItems = [
     { label: '홈', id: 'home' },
-    { label: '기능', id: 'features' },
     { label: '블로그', id: 'blog' },
   ];
 

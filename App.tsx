@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Features from './components/Features';
 import BlogSection from './components/BlogSection';
 import Footer from './components/Footer';
 
@@ -11,7 +10,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'features', 'blog'];
+      const sections = ['home', 'blog'];
       for (const section of sections) {
         const element = document.getElementById(section);
         if (element) {
@@ -37,11 +36,7 @@ const App: React.FC = () => {
           <Hero />
         </section>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-32 py-20">
-          <section id="features">
-            <Features />
-          </section>
-
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <section id="blog" className="scroll-mt-20">
             <BlogSection />
           </section>
