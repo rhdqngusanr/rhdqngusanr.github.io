@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675"
+ font-family="Pretendard, Malgun Gothic, sans-serif">
+  <defs>
+    <linearGradient id="bg12" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#171B20"/>
+      <stop offset="100%" stop-color="#0E1114"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg12)"/>
+
+  <!--
+    경계 지식에 주인이 없다는 걸 그린 것이다.
+    네 레포는 각자 자기 문서가 있는데, 정작 비싼 지식은 그 사이 빈칸에 있다.
+    아래는 그 빈칸에 자리를 만들어준 결과다.
+  -->
+
+  <text x="72" y="86" font-size="34" font-weight="800" fill="#E7ECF2">가장 비싼 지식은 사이에 있었다</text>
+  <text x="72" y="122" font-size="18" fill="#7A8794">그리고 사이에는 주인이 없다</text>
+
+  <g stroke-width="1.4">
+    <rect x="72"  y="180" width="234" height="110" rx="10" fill="#5B7C99" fill-opacity="0.12" stroke="#5B7C99" stroke-opacity="0.42"/>
+    <rect x="354" y="180" width="234" height="110" rx="10" fill="#5B7C99" fill-opacity="0.12" stroke="#5B7C99" stroke-opacity="0.42"/>
+    <rect x="636" y="180" width="234" height="110" rx="10" fill="#5B7C99" fill-opacity="0.12" stroke="#5B7C99" stroke-opacity="0.42"/>
+    <rect x="918" y="180" width="210" height="110" rx="10" fill="#5B7C99" fill-opacity="0.12" stroke="#5B7C99" stroke-opacity="0.42"/>
+  </g>
+  <g font-size="17" font-weight="700" fill="#9DB6CC" text-anchor="middle">
+    <text x="189"  y="228">본사 백엔드</text>
+    <text x="471"  y="228">현장 프로그램</text>
+    <text x="753"  y="228">관리자 웹</text>
+    <text x="1023" y="228">무인정산기</text>
+  </g>
+  <g font-size="13" fill="#6E8598" text-anchor="middle">
+    <text x="189"  y="258">자기 문서 있음</text>
+    <text x="471"  y="258">자기 문서 있음</text>
+    <text x="753"  y="258">자기 문서 있음</text>
+    <text x="1023" y="258">자기 문서 있음</text>
+  </g>
+
+  <g font-size="30" font-weight="800" fill="#C25450" fill-opacity="0.6" text-anchor="middle">
+    <text x="330" y="240">?</text>
+    <text x="612" y="240">?</text>
+    <text x="894" y="240">?</text>
+  </g>
+
+  <rect x="72" y="316" width="1056" height="76" rx="10"
+        fill="#C25450" fill-opacity="0.10" stroke="#C25450" stroke-opacity="0.36" stroke-width="1.5"/>
+  <text x="98" y="350" font-size="17" font-weight="700" fill="#D98B88">두 집계 기준이 다르다는 사실은 어느 파일에도 없다</text>
+  <text x="98" y="378" font-size="15" fill="#96706E">양쪽을 다 읽은 사람의 머릿속에만 있고, 쓸 자리가 없어서 안 쓰인다</text>
+
+  <path d="M600 400 L600 434" stroke="#3FA974" stroke-width="2" stroke-opacity="0.6"/>
+  <path d="M600 442 l-7 -13 h14 z" fill="#3FA974" fill-opacity="0.75"/>
+
+  <rect x="72" y="450" width="1056" height="112" rx="12"
+        fill="#3FA974" fill-opacity="0.10" stroke="#3FA974" stroke-opacity="0.42" stroke-width="1.6"/>
+  <text x="98" y="486" font-size="18" font-weight="700" fill="#7BC79E">경계 지식 전용 자리를 만들었다</text>
+  <text x="98" y="518" font-size="15" fill="#5D8C74">노트 279개 중 경계 전용은 7개뿐인데, 가장 자주 열리는 것도 그 7개다</text>
+  <text x="98" y="546" font-size="15" fill="#5D8C74">그리고 신선도를 기계가 판정하게 했다 — 다만 적용률은 3퍼센트에서 멈췄다</text>
+
+  <text x="72" y="618" font-size="16" fill="#96A2AE">문서가 안 쓰이는 이유는 없어서가 아니라 못 믿어서다.</text>
+  <text x="72" y="646" font-size="16" font-weight="700" fill="#7BC79E">그리고 같은 질문을 세 번 받으면, 문서를 쓸 때가 아니라 도구를 만들 때다.</text>
+</svg>

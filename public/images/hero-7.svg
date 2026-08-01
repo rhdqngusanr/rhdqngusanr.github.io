@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675"
+ font-family="Pretendard, Malgun Gothic, sans-serif">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#171B20"/>
+      <stop offset="100%" stop-color="#0E1114"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg7)"/>
+
+  <!--
+    이 글에서 가장 비쌌던 발견을 그림 하나로 옮긴 것이다.
+    왼쪽은 실패인데 성공이라고 답했고, 오른쪽은 성공인데 아무 답도 안 했다.
+    두 오보가 반대 방향이라 통계로 상쇄되어 아무도 못 봤다는 게 핵심이다.
+  -->
+
+  <text x="72" y="86" font-size="34" font-weight="800" fill="#E7ECF2">응답이 양쪽으로 거짓말했다</text>
+  <text x="72" y="122" font-size="18" fill="#7A8794">두 오보가 반대 방향이라 통계로도 안 잡혔다</text>
+
+  <!-- 왼쪽 -->
+  <text x="72" y="196" font-size="17" font-weight="700" fill="#C25450" letter-spacing="1">실패인데 성공이라고 했다</text>
+
+  <rect x="72" y="216" width="480" height="184" rx="12"
+        fill="#C25450" fill-opacity="0.10" stroke="#C25450" stroke-opacity="0.38" stroke-width="1.5"/>
+  <text x="100" y="256" font-size="16" fill="#D98B88">핸들러가 예외를 전부 삼키고 정상 리턴</text>
+  <text x="100" y="288" font-size="16" fill="#D98B88">상위 로직은 예외를 못 본다</text>
+  <text x="100" y="320" font-size="16" fill="#D98B88">메시지를 버려도 성공 응답이 나간다</text>
+  <rect x="100" y="342" width="424" height="40" rx="8" fill="#C25450" fill-opacity="0.16"/>
+  <text x="118" y="368" font-size="15" font-weight="700" fill="#E0A5A2">현장이 받는 답 : 잘 처리했습니다</text>
+
+  <!-- 오른쪽 -->
+  <text x="648" y="196" font-size="17" font-weight="700" fill="#C9A227" letter-spacing="1">성공인데 아무 답도 안 했다</text>
+
+  <rect x="648" y="216" width="480" height="184" rx="12"
+        fill="#C9A227" fill-opacity="0.10" stroke="#C9A227" stroke-opacity="0.38" stroke-width="1.5"/>
+  <text x="676" y="256" font-size="16" fill="#D9BE6A">데이터 처리는 이미 끝났는데</text>
+  <text x="676" y="288" font-size="16" fill="#D9BE6A">비활성 사업장이면 응답을 안 보낸다</text>
+  <text x="676" y="320" font-size="16" fill="#D9BE6A">현장은 건당 7초 타임아웃을 다 채운다</text>
+  <rect x="676" y="342" width="424" height="40" rx="8" fill="#C9A227" fill-opacity="0.16"/>
+  <text x="694" y="368" font-size="15" font-weight="700" fill="#E4D08C">1,000건이면 한 요청이 약 2시간</text>
+
+  <!-- 상쇄 -->
+  <path d="M312 400 L600 470" stroke="#C25450" stroke-width="2" stroke-opacity="0.5"/>
+  <path d="M888 400 L600 470" stroke="#C9A227" stroke-width="2" stroke-opacity="0.5"/>
+
+  <rect x="360" y="470" width="480" height="76" rx="12"
+        fill="#5B7C99" fill-opacity="0.12" stroke="#5B7C99" stroke-opacity="0.45" stroke-width="1.5"/>
+  <text x="600" y="504" font-size="19" font-weight="700" fill="#9DB6CC" text-anchor="middle">성공률 통계</text>
+  <text x="600" y="530" font-size="15" fill="#6E8598" text-anchor="middle">과대보고와 과소보고가 서로 지운다</text>
+
+  <text x="72" y="608" font-size="16" fill="#96A2AE">응답은 받았다인지 처리했다인지 정의하지 않으면</text>
+  <text x="72" y="634" font-size="16" fill="#96A2AE">양쪽이 다른 뜻으로 쓴다.</text>
+</svg>

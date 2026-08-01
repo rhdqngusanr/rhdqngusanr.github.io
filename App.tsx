@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import WhyThisBlog from './components/WhyThisBlog';
 import BlogSection from './components/BlogSection';
 import Footer from './components/Footer';
 
@@ -37,6 +38,9 @@ const App: React.FC = () => {
         </section>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          {/* 글 목록 위에 둔다. 왜 쓰는지를 먼저 보고 글로 들어가게 하려는 배치다. */}
+          <WhyThisBlog />
+
           <section id="blog" className="scroll-mt-20">
             <BlogSection />
           </section>
