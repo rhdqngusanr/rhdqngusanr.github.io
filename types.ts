@@ -26,8 +26,3 @@ export interface Project {
   tags: string[];
   imageUrl: string;
 }
-
-export interface ChatMessage {
-  role: 'user' | 'assistant';
-  content: string;
-}
