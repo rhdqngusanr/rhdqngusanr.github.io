@@ -79,5 +79,5 @@
   <text x="646" y="494" font-size="13" fill="#B49A52">개편의 비용은 새 테이블이 아니라 이 188곳이었다</text>
 
   <text x="72" y="614" font-size="16" fill="#96A2AE">병행 기간이 있는 개편은 새것 만들기가 아니라, 옛것과 새것이 같은 답을 내게 하는 일이다.</text>
-  <text x="72" y="640" font-size="16" font-weight="700" fill="#7BC79E">그리고 이번에는 AI를 코드 생성기가 아니라 대조 엔진으로 썼다.</text>
+  <text x="72" y="640" font-size="16" font-weight="700" fill="#7BC79E">스키마를 대량으로 바꾸면서도, 구 로그인은 마지막 날까지 그대로 동작해야 했다.</text>
 </svg>

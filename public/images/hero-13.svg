@@ -16,7 +16,7 @@
   -->
 
   <text x="72" y="86" font-size="34" font-weight="800" fill="#E7ECF2">범인은 느린 쿼리가 아니었다</text>
-  <text x="72" y="122" font-size="18" fill="#7A8794">누군가 락을 쥔 채 외부에 전화를 걸고 있었다</text>
+  <text x="72" y="122" font-size="18" fill="#7A8794">누군가 DB와의 연결을 쥔 채 외부와 통신하고 있었다</text>
 
   <!-- 시간축 -->
   <path d="M72 180 L1128 180" stroke="#3B4650" stroke-width="1.2" stroke-opacity="0.6"/>
