@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675"
+ font-family="Pretendard, Malgun Gothic, sans-serif">
+  <defs>
+    <linearGradient id="bg14" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#171B20"/>
+      <stop offset="100%" stop-color="#0E1114"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg14)"/>
+
+  <!--
+    개편의 골자를 좌우 대비로 옮긴 것이다.
+    왼쪽은 같은 사람이 사업장마다 계정을 만들어 따로 로그인하던 기존,
+    오른쪽은 사람 하나가 위로 올라가고 계정들이 카드로 격하된 개편 후다.
+    가운데 화살표 아래 "병행"이 이 개편에서 제일 비쌌던 조건이다.
+  -->
+
+  <text x="72" y="86" font-size="34" font-weight="800" fill="#E7ECF2">로그인의 주체를 계정에서 사람으로</text>
+  <text x="72" y="122" font-size="18" fill="#7A8794">계정 세 개로 살던 한 사람에게 이름을 돌려주는 일</text>
+
+  <!-- 왼쪽: 기존 -->
+  <text x="72" y="196" font-size="17" font-weight="700" fill="#5B7C99" letter-spacing="1">기존</text>
+
+  <g stroke-width="1.4">
+    <rect x="72" y="216" width="400" height="74" rx="10" fill="#C25450" fill-opacity="0.10" stroke="#C25450" stroke-opacity="0.38"/>
+    <rect x="72" y="306" width="400" height="74" rx="10" fill="#C25450" fill-opacity="0.10" stroke="#C25450" stroke-opacity="0.38"/>
+    <rect x="72" y="396" width="400" height="74" rx="10" fill="#C25450" fill-opacity="0.10" stroke="#C25450" stroke-opacity="0.38"/>
+  </g>
+  <g font-size="16" font-weight="700" fill="#D98B88">
+    <text x="98" y="248">사업장 A 계정</text>
+    <text x="98" y="338">사업장 B 계정</text>
+    <text x="98" y="428">입주사 C 계정</text>
+  </g>
+  <g font-size="14" fill="#96706E">
+    <text x="98" y="274">아이디 따로 · 로그인 따로 · 권한 따로</text>
+    <text x="98" y="364">같은 사람인 걸 시스템은 모른다</text>
+    <text x="98" y="454">한 행이 주체이자 소속이자 권한이다</text>
+  </g>
+
+  <!-- 가운데 화살표 -->
+  <path d="M496 340 L580 340" stroke="#3FA974" stroke-width="2.4" stroke-opacity="0.7"/>
+  <path d="M590 340 l-15 -8 v16 z" fill="#3FA974" fill-opacity="0.8"/>
+  <text x="543" y="386" font-size="13" fill="#6C7883" text-anchor="middle">구·신 로그인</text>
+  <text x="543" y="406" font-size="13" fill="#6C7883" text-anchor="middle">무기한 병행</text>
+
+  <!-- 오른쪽: 개편 후 -->
+  <text x="620" y="196" font-size="17" font-weight="700" fill="#5B7C99" letter-spacing="1">개편 후</text>
+
+  <rect x="620" y="216" width="508" height="80" rx="12"
+        fill="#3FA974" fill-opacity="0.12" stroke="#3FA974" stroke-opacity="0.45" stroke-width="1.6"/>
+  <text x="646" y="250" font-size="17" font-weight="700" fill="#7BC79E">사람 — 통합ID</text>
+  <text x="646" y="278" font-size="14" fill="#5D8C74">로그인은 여기서 한 번. 세션도 사람에게 발급된다</text>
+
+  <g stroke="#3FA974" stroke-width="1.6" stroke-opacity="0.55">
+    <path d="M714 296 L714 336"/>
+    <path d="M874 296 L874 336"/>
+    <path d="M1034 296 L1034 336"/>
+  </g>
+
+  <g stroke-width="1.4">
+    <rect x="640" y="336" width="148" height="88" rx="10" fill="#5B7C99" fill-opacity="0.12" stroke="#5B7C99" stroke-opacity="0.42"/>
+    <rect x="800" y="336" width="148" height="88" rx="10" fill="#5B7C99" fill-opacity="0.12" stroke="#5B7C99" stroke-opacity="0.42"/>
+    <rect x="960" y="336" width="148" height="88" rx="10" fill="#5B7C99" fill-opacity="0.12" stroke="#5B7C99" stroke-opacity="0.42"/>
+  </g>
+  <g font-size="15" font-weight="700" fill="#9DB6CC">
+    <text x="662" y="372">카드 A</text>
+    <text x="822" y="372">카드 B</text>
+    <text x="982" y="372">카드 C</text>
+  </g>
+  <g font-size="13" fill="#6E8598">
+    <text x="662" y="398">사업장 A 소속</text>
+    <text x="822" y="398">사업장 B 소속</text>
+    <text x="982" y="398">입주사 C 소속</text>
+  </g>
+
+  <rect x="620" y="446" width="508" height="60" rx="10"
+        fill="#C9A227" fill-opacity="0.10" stroke="#C9A227" stroke-opacity="0.4" stroke-width="1.4"/>
+  <text x="646" y="472" font-size="14" font-weight="700" fill="#E4D08C">권한을 읽는 코드 188곳이 "계정은 하나"라는 가정 위에 있었다</text>
+  <text x="646" y="494" font-size="13" fill="#B49A52">개편의 비용은 새 테이블이 아니라 이 188곳이었다</text>
+
+  <text x="72" y="614" font-size="16" fill="#96A2AE">병행 기간이 있는 개편은 새것 만들기가 아니라, 옛것과 새것이 같은 답을 내게 하는 일이다.</text>
+  <text x="72" y="640" font-size="16" font-weight="700" fill="#7BC79E">그리고 이번에는 AI를 코드 생성기가 아니라 대조 엔진으로 썼다.</text>
+</svg>
